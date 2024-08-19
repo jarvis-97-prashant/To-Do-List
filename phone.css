@@ -1,0 +1,29 @@
+.container h1{
+    text-align: center;
+}
+.newTask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.newTask input {
+    width: 94%;
+    height: 6vh;
+}
+.newTask button{
+    width: 38%;
+}
+
+/* handling the paragraph */
+.list-container li .Done{
+    font-size: 0.7rem;
+    font-weight: 200;
+}
+ /* handling the buttons edit and delete */
+.btn{
+    width: 15%;
+    padding: 2px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
